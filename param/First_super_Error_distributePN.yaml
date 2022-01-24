@@ -1,0 +1,18 @@
+
+
+test_data_path: '../data/Valid'
+net_load_path: './net_param/Conv3DV7_9_first_super_PN_Cadd/3DynRec_net_Conv3D_epch45.pth'
+#'./net_param/Conv3DV7_9_first_super_full/3DynRec_net_Conv3D_epch30.pth'
+var_save_path: './Vardata/Error_distri_result/first_super_PN.pckl'
+
+SpDim: 30
+HidDim: [30, 24, 12, 12]
+DimP: [30, 120, 48]
+KnnC: 20
+Knn: 10
+order: 1
+niter: 1
+Aff: 'Euc'
+
+Semantic: True
+Cadd: True

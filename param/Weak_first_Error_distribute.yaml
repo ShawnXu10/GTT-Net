@@ -1,0 +1,15 @@
+
+
+test_data_path: '../data/Valid'
+net_load_path: './net_param/saved_net/V7_9/Error_distribute_test_1/weak_first.pth'
+var_save_path: './Vardata/Error_distri_result/weak_first.pckl'
+SpDim: 93
+HidDim: [48, 24, 12, 12]
+KnnC: 20
+Knn: 10
+order: 1
+niter: 1
+Aff: 'Euc'
+
+Semantic: True
+Cadd: False

@@ -1,0 +1,15 @@
+var_save_path: './Vardata/Test_result/freq_local_euc_first_super_1iter_PN.pckl'
+net_load_path: './net_param/Conv3DV7_9_super_first_PN_Cadd/3DynRec_net_Conv3D_epch35.pth'
+
+SpDim: 30
+HidDim: [30, 24, 12, 12]
+DimP: [30, 120, 48]
+KnnC: 20
+Knn: 10
+order: 1
+niter: 1
+
+Aff: 'Euc'
+
+Semantic: True
+Cadd: True

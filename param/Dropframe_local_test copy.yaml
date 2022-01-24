@@ -1,0 +1,15 @@
+var_save_path: './Vardata/Test_result/Dropframe_local_euc_first_super_1iter.pckl'
+net_load_path: './net_param/Conv3DV7_9_first_super/3DynRec_net_Conv3D_epch40.pth'
+#'./net_param/saved_net/V7_9/first_weak/3DynRec_net_Conv3D_epch110.pth'
+
+SpDim: 93
+HidDim: [48, 24, 12, 12]
+KnnC: 20
+Knn: 10
+order: 1
+niter: 1
+
+Aff: 'Euc'
+
+Semantic: True
+Cadd: False
