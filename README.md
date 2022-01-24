@@ -7,11 +7,10 @@ This is the implementation of the paper ‘[GTT-Net: Learned Generalized Traject
 Specific setup will come up soon
 
 ## Evaluation and testing
-```
 - Evauation on ski datasets:
-
+```
 python ski_test.py
-
+```
 ## Training
 
 Specific training instruction will come soon.
