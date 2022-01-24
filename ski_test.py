@@ -10,7 +10,7 @@ net  = DeepDyn.Net(30, np.array([30, 24, 12, 12]), np.array([30, 120, 48]), 20, 
 net = net.double()
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 net.to(device)
-net.load_state_dict(torch.load('./net_param/Conv3DV7_9_super_first_PN_Cadd/3DynRec_net_Conv3D_epch35.pth'))
+net.load_state_dict(torch.load('./net_param/3DynRec_net_Conv3D.pth'))
 
 RecErrMean = np.zeros((1,3), dtype = np.double)
 RecErrStd = np.zeros((1,3), dtype = np.double)
