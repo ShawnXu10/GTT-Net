@@ -4,7 +4,7 @@ This is the implementation of the paper ‘[GTT-Net: Learned Generalized Traject
 
 ## Setup
 
-Specific setup will come up soon
+Specific setup will come soon
 
 ## Evaluation and testing
 - Evauation on ski datasets:
